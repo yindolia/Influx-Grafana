@@ -33,7 +33,6 @@ def writeInflux():
                    }
             }
         ]
-        print 
         i=i+1
         client.write_points(json_body)
         time.sleep(5)            
